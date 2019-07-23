@@ -12,8 +12,8 @@ class Json2image
     /**
      * 生成宣传海报
      * @param array $config 参数,包括图片和文字
-     * @param string $filename 生成海报文件名,不传此参数则不生成文件,直接输出图片
      * @param boolean $output 是否输出（流|base64）
+     * @param string $filename 生成海报文件名,不传此参数则不生成文件,直接输出图片
      * @return bool|string
      */
     static function createPoster($config = array(), $output = false, $filename = "")
